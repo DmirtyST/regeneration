@@ -4,10 +4,12 @@
       <div class="footer_contacts">
         <ul class="footer_lists">
           <li class="footer_list">
-            <a class="footer_docs" href="">Code of Conduct</a>
+            <a class="footer_docs" href="tel:+380663844645">Code of Conduct</a>
           </li>
           <li class="footer_list">|</li>
-          <li class="footer_list"><a class="footer_contact" href="">Contact Us</a></li>
+          <li class="footer_list">
+            <a class="footer_contact" href="tel:+380663844645">Contact Us</a>
+          </li>
         </ul>
       </div>
       <div class="footer_main">
