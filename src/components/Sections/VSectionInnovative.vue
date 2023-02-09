@@ -19,7 +19,10 @@
             </div>
           </div>
           <div class="innovative_img">
-            <VImg ps="cover" :sourse="innovative1" />
+            <picture>
+              <source type="image/webp" :srcset="innovative1Webp" />
+              <VImg ps="cover" :sourse="innovative1" />
+            </picture>
           </div>
         </div>
         <div class="innovative_item">
@@ -36,7 +39,10 @@
             </div>
           </div>
           <div class="innovative_img">
-            <VImg ps="cover" :sourse="innovative2" />
+            <picture>
+              <source type="image/webp" :srcset="innovative2Webp" />
+              <VImg ps="cover" :sourse="innovative2" />
+            </picture>
           </div>
         </div>
         <div class="innovative_item">
@@ -52,7 +58,10 @@
             </div>
           </div>
           <div class="innovative_img">
-            <VImg ps="cover" :sourse="innovative3" />
+            <picture>
+              <source type="image/webp" :srcset="innovative3Webp" />
+              <VImg ps="cover" :sourse="innovative3" />
+            </picture>
           </div>
         </div>
         <div class="innovative_item">
@@ -68,7 +77,10 @@
             </div>
           </div>
           <div class="innovative_img">
-            <VImg ps="cover" :sourse="innovative4" />
+            <picture>
+              <source type="image/webp" :srcset="innovative4Webp" />
+              <VImg ps="cover" :sourse="innovative4" />
+            </picture>
           </div>
         </div>
       </div>
@@ -82,6 +94,10 @@
   import innovative2 from '../Image/innovative2.png';
   import innovative3 from '../Image/innovative3.png';
   import innovative4 from '../Image/innovative4.png';
+  import innovative1Webp from '../Image/innovative1.webp';
+  import innovative2Webp from '../Image/innovative2.webp';
+  import innovative3Webp from '../Image/innovative3.webp';
+  import innovative4Webp from '../Image/innovative4.webp';
   import VContainer from '../UI/Container/VContainer.vue';
   import VImg from '../UI/Img/VImg.vue';
   import VTitles from '../UI/Titles/VTitles.vue';
