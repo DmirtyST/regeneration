@@ -1,15 +1,17 @@
 <template>
   <div class="header">
     <div class="header_row">
-      <div class="header_logo">
-        <div class="header_img">
-          <VImg :sourse="headerLogo" ps="cover" />
+      <router-link to="#screen">
+        <div class="header_logo">
+          <div class="header_img">
+            <VImg :sourse="headerLogo" ps="cover" />
+          </div>
+          <div class="header_text">
+            <div>A Restoration and</div>
+            <div>REMining Enterprise</div>
+          </div>
         </div>
-        <div class="header_text">
-          <div>A Restoration and</div>
-          <div>REMining Enterprise</div>
-        </div>
-      </div>
+      </router-link>
       <div class="header_btn">
         <router-link to="#partner">
           <VButton color="transper">BECOME A PARTNER</VButton></router-link

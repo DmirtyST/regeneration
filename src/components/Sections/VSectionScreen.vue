@@ -1,5 +1,5 @@
 <template>
-  <section class="screen">
+  <section id="screen" class="screen">
     <div class="screen_row">
       <div class="screen_bg">
         <picture>
