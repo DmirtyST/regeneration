@@ -2,7 +2,10 @@
   <section class="screen">
     <div class="screen_row">
       <div class="screen_bg">
-        <VImg :sourse="screenBg" ps="cover" />
+        <picture>
+          <source type="image/webp" :srcset="screenBgWebp" />
+          <VImg :sourse="screenBg" ps="cover" />
+        </picture>
       </div>
       <div class="screen_item">
         <div class="screen_letter">Re</div>
@@ -30,6 +33,7 @@
   import VImg from '../UI/Img/VImg.vue';
   import VTypography from '../UI/Typography/VTypography.vue';
   import screenBg from '../Image/screen.png';
+  import screenBgWebp from '../Image/screen.webp';
 </script>
 
 <style lang="scss" scoped>
