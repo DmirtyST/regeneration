@@ -32,8 +32,8 @@
   import VHtag from '@comps/UI/Htag/VHtag.vue';
   import VImg from '@comps/UI/Img/VImg.vue';
   import VTypography from '@comps/UI/Typography/VTypography.vue';
-  import screenBg from '@/assets/screen.png';
-  import screenBgWebp from '@/assets/screen.webp';
+  import screenBg from '../../assets/screen.png';
+  import screenBgWebp from '../../assets/screen.webp';
 </script>
 
 <style lang="scss" scoped>
