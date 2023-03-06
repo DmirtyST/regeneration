@@ -36,8 +36,7 @@
 </template>
 
 <script setup>
-  import VContainer from '../UI/Container/VContainer.vue';
-  import VTitles from '../UI/Titles/VTitles.vue';
+  import VTitles from '@comps/UI/Titles/VTitles.vue';
   import {gsap} from 'gsap';
   import {ScrollTrigger} from 'gsap/ScrollTrigger';
   import {onMounted} from 'vue';

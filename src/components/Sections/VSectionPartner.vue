@@ -132,9 +132,9 @@
 </template>
 
 <script setup>
-  import VAccordion from '../UI/Accordion/VAccordion.vue';
-  import VContainer from '../UI/Container/VContainer.vue';
-  import VTitles from '../UI/Titles/VTitles.vue';
+  import VAccordion from '@comps/UI/Accordion/VAccordion.vue';
+  import VContainer from '@comps/UI/Container/VContainer.vue';
+  import VTitles from '@comps/UI/Titles/VTitles.vue';
   import {gsap} from 'gsap';
   import {onMounted} from 'vue';
   onMounted(() => {

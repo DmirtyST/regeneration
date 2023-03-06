@@ -28,12 +28,12 @@
 </template>
 
 <script setup>
-  import VButton from '../UI/Button/VButton.vue';
-  import VHtag from '../UI/Htag/VHtag.vue';
-  import VImg from '../UI/Img/VImg.vue';
-  import VTypography from '../UI/Typography/VTypography.vue';
-  import screenBg from '../Image/screen.png';
-  import screenBgWebp from '../Image/screen.webp';
+  import VButton from '@comps/UI/Button/VButton.vue';
+  import VHtag from '@comps/UI/Htag/VHtag.vue';
+  import VImg from '@comps/UI/Img/VImg.vue';
+  import VTypography from '@comps/UI/Typography/VTypography.vue';
+  import screenBg from '@/assets/screen.png';
+  import screenBgWebp from '@/assets/screen.webp';
 </script>
 
 <style lang="scss" scoped>

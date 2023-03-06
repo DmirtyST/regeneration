@@ -82,9 +82,9 @@
 </template>
 
 <script setup>
-  import VHtag from '../UI/Htag/VHtag.vue';
-  import VTitles from '../UI/Titles/VTitles.vue';
-  import VTypography from '../UI/Typography/VTypography.vue';
+  import VHtag from '@comps/UI/Htag/VHtag.vue';
+  import VTitles from '@comps/UI/Titles/VTitles.vue';
+  import VTypography from '@comps/UI/Typography/VTypography.vue';
   import {gsap} from 'gsap';
   import {ScrollTrigger} from 'gsap/ScrollTrigger';
   import {onMounted} from 'vue';

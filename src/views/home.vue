@@ -23,12 +23,12 @@
 </template>
 
 <script setup>
-  import VSectionScreen from '../components/Sections/VSectionScreen.vue';
-  import VSectionInnovative from '../components/Sections/VSectionInnovative.vue';
-  import VSectionTasks from '../components/Sections/VSectionTasks.vue';
-  import VSectionProcess from '../components/Sections/VSectionProcess.vue';
-  import VSectionPartner from '../components/Sections/VSectionPartner.vue';
-  import VSectionTeam from '../components/Sections/VSectionTeam.vue';
+  import VSectionScreen from '@/components/Sections/VSectionScreen.vue';
+  import VSectionInnovative from '@/components/Sections/VSectionInnovative.vue';
+  import VSectionTasks from '@/components/Sections/VSectionTasks.vue';
+  import VSectionProcess from '@/components/Sections/VSectionProcess.vue';
+  import VSectionPartner from '@/components/Sections/VSectionPartner.vue';
+  import VSectionTeam from '@/components/Sections/VSectionTeam.vue';
   import {gsap} from 'gsap';
   import {ScrollTrigger} from 'gsap/ScrollTrigger';
   import {onMounted} from 'vue';

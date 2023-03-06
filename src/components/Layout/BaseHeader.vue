@@ -22,9 +22,9 @@
 </template>
 
 <script setup>
-  import headerLogo from '../Image/headerLogo.png';
-  import VImg from '../UI/Img/VImg.vue';
-  import VButton from '../UI/Button/VButton.vue';
+  import headerLogo from '@/assets/headerLogo.png';
+  import VImg from '@comps/UI/Img/VImg.vue';
+  import VButton from '@comps/UI/Button/VButton.vue';
   import {gsap} from 'gsap';
   import {ScrollTrigger} from 'gsap/ScrollTrigger';
   import {onMounted} from 'vue';

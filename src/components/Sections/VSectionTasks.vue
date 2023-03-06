@@ -21,8 +21,8 @@
 </template>
 
 <script setup>
-  import VTitles from '../UI/Titles/VTitles.vue';
-  import VTypography from '../UI/Typography/VTypography.vue';
+  import VTitles from '@comps/UI/Titles/VTitles.vue';
+  import VTypography from '@comps/UI/Typography/VTypography.vue';
 </script>
 
 <style lang="scss" scoped>

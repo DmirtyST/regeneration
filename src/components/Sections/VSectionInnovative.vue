@@ -89,18 +89,18 @@
 </template>
 
 <script setup>
-  import VTypography from '../UI/Typography/VTypography.vue';
-  import innovative1 from '../Image/innovative1.png';
-  import innovative2 from '../Image/innovative2.png';
-  import innovative3 from '../Image/innovative3.png';
-  import innovative4 from '../Image/innovative4.png';
-  import innovative1Webp from '../Image/innovative1.webp';
-  import innovative2Webp from '../Image/innovative2.webp';
-  import innovative3Webp from '../Image/innovative3.webp';
-  import innovative4Webp from '../Image/innovative4.webp';
+  import VTypography from '@comps/UI/Typography/VTypography.vue';
+  import innovative1 from '@/innovative1.png';
+  import innovative2 from '@/innovative2.png';
+  import innovative3 from '@/assets/innovative3.png';
+  import innovative4 from '@/assets/innovative4.png';
+  import innovative1Webp from '@/assets/innovative1.webp';
+  import innovative2Webp from '@/assets/innovative2.webp';
+  import innovative3Webp from '@/assets/innovative3.webp';
+  import innovative4Webp from '@/assets/innovative4.webp';
   import VContainer from '../UI/Container/VContainer.vue';
-  import VImg from '../UI/Img/VImg.vue';
-  import VTitles from '../UI/Titles/VTitles.vue';
+  import VImg from '@comps/UI/Img/VImg.vue';
+  import VTitles from '@comps/UI/Titles/VTitles.vue';
 
   import {gsap} from 'gsap';
   import {ScrollTrigger} from 'gsap/ScrollTrigger';

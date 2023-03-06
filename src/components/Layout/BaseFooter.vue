@@ -36,8 +36,8 @@
 </template>
 
 <script setup>
-  import logoFooter from '../Image/logoFooter.png';
-  import VImg from '../UI/Img/VImg.vue';
+  import logoFooter from '@/assets//logoFooter.png';
+  import VImg from '@comps/UI/Img/VImg.vue';
 </script>
 
 <style lang="scss" scoped>

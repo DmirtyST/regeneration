@@ -12,15 +12,16 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      '@comps': fileURLToPath(new URL('./src/components', import.meta.url))
     }
   },  
   css: {
     preprocessorOptions: {
       scss: {
         additionalData: `
-        @import "@/assets/_mixin.scss";
-        @import "@/assets/_color.scss";
+        @import "@/stylesMix/_mixin.scss";
+        @import "@/stylesMix/_color.scss";
         `
       }
     }
