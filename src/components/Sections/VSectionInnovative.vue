@@ -90,8 +90,8 @@
 
 <script setup>
   import VTypography from '@comps/UI/Typography/VTypography.vue';
-  import innovative1 from '@/innovative1.png';
-  import innovative2 from '@/innovative2.png';
+  import innovative1 from '@/assets/innovative1.png';
+  import innovative2 from '@/assets/innovative2.png';
   import innovative3 from '@/assets/innovative3.png';
   import innovative4 from '@/assets/innovative4.png';
   import innovative1Webp from '@/assets/innovative1.webp';
