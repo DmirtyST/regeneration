@@ -17,6 +17,21 @@
   resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.12.tgz#475b33a2631a3d8ca8aa95ee127f9a61d95bf9c1"
   integrity sha512-tZEowDjvU7O7I04GYvWQOS4yyP9E/7YlsB0jjw1Ycukgr2ycEzKyIk5tms5WnLBymaewc6VmRKnn5IJWgK4eFw==
 
+"@fontsource/roboto-condensed@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto-condensed/-/roboto-condensed-4.5.9.tgz#70582d0d70acf02323bdeb603e108b836030b42e"
+  integrity sha512-ql4sQq+h8puBVildZ5ssjYf8DWDONYDe3PD3Bu/p1ZW9GnRETRNPPcCTs/q62HIl3QimwwkiKWynn6wZhQaetg==
+
+"@fontsource/roboto@^4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/roboto/-/roboto-4.5.8.tgz#56347764786079838faf43f0eeda22dd7328437f"
+  integrity sha512-CnD7zLItIzt86q4Sj3kZUiLcBk1dSk81qcqgMGaZe7SQ1P8hFNxhMl5AZthK1zrDM5m74VVhaOpuMGIL4gagaA==
+
+"@fontsource/source-serif-pro@^4.5.9":
+  version "4.5.9"
+  resolved "https://registry.yarnpkg.com/@fontsource/source-serif-pro/-/source-serif-pro-4.5.9.tgz#fbeacd0bb6d2860df6baa662e9827adfe3da13f4"
+  integrity sha512-VgDvUvd3An3v9HtKgYk9TJuhB/4ZXw4huv/uqTXO4gES7CUbqGcf6tSb69TwG6o5AZzEVt6jnN7FN18OaO5J9A==
+
 "@vitejs/plugin-vue@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-3.2.0.tgz#a1484089dd85d6528f435743f84cdd0d215bbb54"

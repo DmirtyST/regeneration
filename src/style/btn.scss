@@ -1,6 +1,6 @@
 .btn{
 cursor: pointer;
-font-family: Roboto Condensed;
+font-family: "Roboto Condensed";
 text-transform: uppercase;
 color: $white;
 
@@ -8,7 +8,7 @@ color: $white;
 &_brick{
     padding: 1.6rem 2.1rem 1.6rem 2.6rem;
     background: $brick;
-    @include font(1.4rem,1.6rem,0.4rem,600);
+    @include font(1.4rem,1.6rem,0.4rem,700);
     transition: all linear .4s;
     &:hover{
         transition: all linear .4s;

@@ -14,7 +14,7 @@
         </div>
         <div class="screen_title">
           <VHtag tag="h1" size="xl"
-            >Ecological restoration catalyzed by remining & reprocessing</VHtag
+            >Ecological restoration catalyzed by remining {{ '&' }} reprocessing</VHtag
           >
         </div>
         <div class="screen_btn"><VButton color="brick">View Press Release</VButton></div>
@@ -32,8 +32,8 @@
   import VHtag from '@comps/UI/Htag/VHtag.vue';
   import VImg from '@comps/UI/Img/VImg.vue';
   import VTypography from '@comps/UI/Typography/VTypography.vue';
-  import screenBg from '../../assets/screen.png';
-  import screenBgWebp from '../../assets/screen.webp';
+  import screenBg from '@/assets/screen.png';
+  import screenBgWebp from '@/assets/screen.webp';
 </script>
 
 <style lang="scss" scoped>

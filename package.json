@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/roboto": "^4.5.8",
+    "@fontsource/roboto-condensed": "^4.5.9",
+    "@fontsource/source-serif-pro": "^4.5.9",
     "@vuetify/vite-plugin": "^1.0.0-alpha.11",
     "gsap": "^3.11.4",
     "sass": "^1.55.0",

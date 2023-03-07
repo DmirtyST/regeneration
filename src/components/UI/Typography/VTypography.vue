@@ -26,11 +26,11 @@
     }
     &_lg {
       @include font(1.5rem, 2.4rem, 0px, 400);
-      font-family: Roboto;
+      font-family: 'Roboto';
     }
     &_md {
       @include font(1.3rem, 1.5rem, 0.5rem, 700);
-      font-family: Roboto Condensed;
+      font-family: 'Roboto Condensed';
       text-transform: uppercase;
     }
   }
